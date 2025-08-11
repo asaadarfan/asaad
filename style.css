@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	color:coral;
+	text-decoration: none;
+}
+
+a:hover{
+	color: red;
+}
+
+body{
+	background-color: #f4f4f4;
+	color: #555;	
+	font-family: Arial, helvetica, sans-serif;
+	line-height: 1.6em;
+	
+}
+
+#image{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+
+#image img{
+  width: 50vw;       /* half of viewport width */
+  height: 100vh;     /* full viewport height */
+  object-fit: cover; /* ensures it covers entire area without distortion */
+  display: block;
+}
+
+#form1{
+	float: right;
+	width: 50%;
+	box-sizing: border-box;
+	background-color: lime;
+	min-height: 100vh;
+}
+
+#form1 h1{
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 50px;
+	color: black;
+}
+
+.myform{
+	padding: 10px;
+	padding-left: 260px;
+}
+
+.myform label{
+	display: block;
+	color: black;
+}
+
+.myform input{
+	width: 50%;
+	border-style: solid;
+	border-radius: 8px;
+	padding: 6px;
+	background-color: lightblue;
+}
+
+.myform input:focus{
+	background-color: white;
+	color: black;
+}
+
+.button{
+	margin-left: 260px;
+	margin-top: 10px;
+	padding: 6px;
+	border-radius: 6px;
+	background-color: limegreen;
+}
+
+.button:hover{
+	background-color: green;
+}
+
+#form1 p{
+	padding-left: 260px;
+	padding-top: 20px;
+	color: black;
+}
